@@ -1,15 +1,13 @@
 import math
 
-k = (input("Введите целое число: "))
-b = math.pow(k, 1/2)
-i = 2
+k = int(input("Введите целое число: "))
+math.sqrt(k)
 
-for i in range(i, k):
+for i in range(2, k):
     if k % i == 0:
-        str = "простое"
-        continue
-    else:
         str = "не простое"
         break
+    else:
+        str = "простое"
 
-print(f"Число k - {str}")
+print(str)
