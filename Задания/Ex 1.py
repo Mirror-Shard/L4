@@ -1,3 +1,4 @@
+# Вариант 7
 import sys
 
 n = int(input("Введите номер месяца: "))
@@ -11,5 +12,5 @@ elif n == 6 or n == 7 or n == 8:
 elif n == 9 or n == 10 or n == 11:
     print("Осень")
 else:
-    print("Ошибка!", file = sys.stderr)
+    print("Ошибка!", file=sys.stderr)
     exit(1)
